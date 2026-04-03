@@ -26,7 +26,7 @@ Follow these steps to compile the project:
 Note: Administrative privileges are required for registry modification functions to execute correctly.
 
 ## Project Structure
-- main.cpp: Entry point, command loop, and menu logic.
+- CatUnlocker.cpp: Entry point, command loop, and menu logic.
 - /functions: Implementation of system cleanup and registry logic.
 - /heading: Header files containing function prototypes and ASCII definitions.
 
