@@ -33,7 +33,7 @@ struct UserStruct
 	unsigned short Choice;
 };
 
-void RunDism(const char* Command);
+	
 int Installer(UserStruct& User);
 void Check(UserStruct& User);
 

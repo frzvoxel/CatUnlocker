@@ -36,6 +36,8 @@ int main() {
 
 		std::cout << "\n[5] Components Page\n";
 
+		std::cout << "\n\033[31m[0] Exit\n\033[0m";
+
 		std::cout << "\n\033[31m Command:\033[0m" << " ";
 
 		// Wait for user input
@@ -58,6 +60,11 @@ int main() {
 // Logic for switching between application functions
 void CheckCommand(UserStruct& User) {
 	switch (User.Choice) {
+
+	case 0: {
+		exit(0);
+	}
+
 	case 1: {
 		std::cout << "\033[2J\033[H"; // Clear screen before execution
 		tmp(); // Clean temporary files
