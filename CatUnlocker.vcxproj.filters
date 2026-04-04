@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\heading">
+      <UniqueIdentifier>{43513fc2-e7e0-4a47-b575-98c1746c9076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\functions">
+      <UniqueIdentifier>{3039e09b-7a44-4ffa-a193-eac4644fd3d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CatUnlocker.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\tmp.cpp">
+      <Filter>Исходные файлы\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\logo.cpp">
+      <Filter>Исходные файлы\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\winlogon.cpp">
+      <Filter>Исходные файлы\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\host.cpp">
+      <Filter>Исходные файлы\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\Process.cpp">
+      <Filter>Исходные файлы\functions</Filter>
+    </ClCompile>
+    <ClCompile Include="functions\components_page.cpp">
+      <Filter>Исходные файлы\functions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="heading\logo.h">
+      <Filter>Исходные файлы\heading</Filter>
+    </ClInclude>
+    <ClInclude Include="heading\pages.h">
+      <Filter>Исходные файлы\heading</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
